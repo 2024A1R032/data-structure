@@ -33,6 +33,7 @@ void display(){
     printf("%d",queue[i]);
     i=(i+1) % SIZE;
    } 
+printf("%d",queue[rear]); 
 }
 int main(){
     while(1){
